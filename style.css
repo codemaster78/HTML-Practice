@@ -1,6 +1,31 @@
 Body{
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(41, 41, 41);
+    color: #ffffff;
+    margin: 20px;
+    text-align: center;
+    background-image: url(Background.png);
+    background-repeat: repeat;
 }
-img{
-    align-self: center;
+
+ul, ol, table {
+    line-height: 1.5;
+    text-align: left;
+    max-width: 475px;
+    margin: 0 auto 1em auto;
+}
+
+ul, ol {
+    padding-left: 50px;
+}
+
+a {
+    color:greenyellow;
+}
+
+a:hover {
+    color:darkgreen;
+}
+
+th, td, table {
+    border: 1px solid black;
 }
