@@ -5,6 +5,7 @@ Body{
     text-align: center;
     background-image: url(Background.png);
     background-repeat: repeat;
+    cursor: url('Cursor.png') 16 16, auto;
 }
 
 ul, ol, table {
@@ -24,6 +25,7 @@ a {
 
 a:hover {
     color:darkgreen;
+    cursor: url('Cursor-hover.png') 16 16, auto;
 }
 
 th, td, table {
